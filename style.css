@@ -228,7 +228,7 @@ header .wrapper .headnav i {
     margin-top: 80px;
     width: 45%;
     margin-left: 150px;
-     animation-name: shakeY;
+    animation-name: shakeY;
     animation-duration: 6s;
     animation-iteration-count: infinite;
 }
@@ -314,6 +314,7 @@ header .wrapper .headnav i {
     cursor: pointer;
     box-shadow: 0 0 10px var(--primary-color);
 }
+
 .about2 .wrapper .abt2img {
     margin-top: 80px;
     width: 45%;
@@ -326,68 +327,63 @@ header .wrapper .headnav i {
 /* ////ABOUT2 SECTION END//// */
 
 /* ////ABOUT3 SECTION START//// */
-/* .about3 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-image: url(./about\ backgrounds.avif);
-   background-size:cover;
-     background-attachment: fixed;
-    height: 100vh;
-    width:100vw;
-  
-}
-.about3 .wrapper {
-    max-height: 300px;
-} */
- #about3{
+#about3 {
     background: url(./about\ backgrounds.webp) center center / cover no-repeat fixed;
 }
+
 .about3 {
     min-height: 300px;
     text-align: center;
     padding: 0.3em 0;
-    
+
 }
-.about3 .abt3head h2{
+
+.about3 .abt3head h2 {
     font-size: 2.5em;
     color: var(--text-color);
     margin-top: 20px;
-} 
+}
+
 .about3 .abt3head p {
     color: var(--text-color);
-    
-    
+
+
 }
+
 .about3 .abt3content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 40px;
 }
+
 .about3 .abt3content .contentparts {
     display: flex;
     flex-direction: column;
     align-items: center;
-   font-size: 2em;
+    font-size: 2em;
     /* margin: 10px 0; */
     color: var(--text-color);
 }
-.about3 .abt3content .contentparts b{
+
+.about3 .abt3content .contentparts b {
     font-size: 2.3em;
     /* margin: 10px 0; */
 }
-.about3 .abt3content .contentparts i{
+
+.about3 .abt3content .contentparts i {
     font-size: 2.2em;
     /* margin: 10px 0; */
 }
+
 /* ////ABOUT3 SECTION END//// */
 
 /* ////ABOUT4 SECTION START//// */
-.about4{
+.about4 {
     min-height: 300px;
     padding: 2em 0;
 }
+
 .about4 .wrapper {
     display: flex;
     flex-direction: column;
@@ -395,19 +391,261 @@ header .wrapper .headnav i {
     align-items: center;
     gap: 20px;
 }
-.abot4 .wrapper h2{
+
+.abot4 .wrapper h2 {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
-.about4 .wrapper h2 span{
+
+.about4 .wrapper h2 span {
     color: var(--text-color2);
 }
-.about4 .wrapper p{
+
+.about4 .wrapper p {
     text-align: center;
     color: var(--text-color2);
     width: 1400px;
     line-height: 1.5em;
 }
+
 /* ////ABOUT4 SECTION END//// */
 
+/* ////ABOUT5 SECTION START//// */
+.about5 .abt5head {
+    text-align: center;
+}
+
+.about5 .abt5head p {
+    color: var(--text-color2);
+}
+
+.about5 .abt5head h1 {
+    font-size: 2.5em;
+    margin-top: 30px;
+    color: var(--text-color);
+}
+
+.about5 .abt5head h1 span {
+    color: var(--text-color2);
+}
+
+.about5 .abt5content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.about5 .wrapper {
+    display: flex;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.about5 .abt5content p {
+    color: var(--text-color2);
+
+
+}
+
+.about5 .abt5content {
+    gap: 20px;
+}
+
+.about5 .abt5img {
+    margin-top: 80px;
+    width: 45%;
+    margin-left: 150px;
+    animation-name: shakeY;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.about5 {
+    height: 600px;
+    border: 1px solid black;
+    background-color: var(--secondary-color);
+}
+
+.about5 .wrapper .abt5content h3,
+.about5 .wrapper .abt5content h3 i {
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.about5 .wrapper .btn .abtbtn1 {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background: none;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    font-weight: bold;
+}
+
+.about5 .wrapper .btn .abtbtn2 {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+}
+
+.about5 .wrapper .btn {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.about5 .wrapper .btn .abtbtn1:hover {
+    background: var(--primary-color);
+    cursor: pointer;
+    color: var(--text-color2);
+}
+
+.about5 .wrapper .btn .abtbtn2:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--text-color);
+}
+
+/* ////ABOUT5 SECTION END//// */
+
+/* ////ABOUT6 SECTION START//// */
+#about6 {
+    background: url(./about\ backgrounds.webp) center center / cover no-repeat fixed;
+}
+
+.about6 {
+    min-height: 100px;
+    text-align: center;
+    padding: 0.3em 0;
+
+}
+
+.about6 .abt6head h2 {
+    font-size: 2.5em;
+    color: var(--text-color);
+    margin-top: 20px;
+}
+
+.about6 .abt6head p {
+    color: var(--text-color);
+}
+
+.about6 .wrapper .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.about6 .wrapper .btn .abtbtn2 {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+}
+
+.about6 .wrapper .btn .abtbtn2:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--text-color);
+}
+
+/* ////ABOUT6 SECTION END//// */
+
+/* ////GALLERY SECTION START//// */
+.gallery .wrapper h2{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+.gallery .wrapper h2 i{
+    color: var(--secondary-color);
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 140px;
+}
+.gallery .wrapper .galleryimages {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery .wrapper .galleryimages .item {
+    width: 160px;
+    height: 160px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    border: 8px solid var(--secondary-color);
+    overflow: hidden;
+}
+
+.gallery .wrapper .galleryimages .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.gallery .wrapper .galleryimages .item:hover {
+    transform: scale(1.25);
+}
+/* ////GALLERY SECTION END//// */
+
+/* ////CONTACT SECTION START//// */
+.contactus{
+background: url(./hero\ bg.avif) center no-repeat;
+    background-size: cover;
+}
+.contactus .wrapper .contact{
+    width: 100%;
+    min-height: 80vh;
+    
+}
+.contacus .wrapper .contact .form{
+    padding: 2em;
+    background: black;
+    height: 480px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contactus .wrapper .contact .form h2{
+    color: var(--text-color);
+    font-size: 1.6em;
+    font-weight: normal;
+    align-self: flex-start;
+    padding: 1em 0;
+    margin-left: 0.6em;
+}
+.contactus .wrapper .contact .form input, .contactus .wrapper .contact .form textarea{
+    background: transparent;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.807);
+    padding: 1em 0;
+    margin-bottom: 1.2em;
+    color: rgba(199, 198, 198, 0.861);
+}
+/* ////CONTACT SECTION END//// */
