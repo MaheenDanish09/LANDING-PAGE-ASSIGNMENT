@@ -1,0 +1,33 @@
+/* ////HEADER START//// */
+header{
+    padding: 20px;
+}
+header .wrapper, header .wrapper .headnav{
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+header .wrapper .headnav i{
+    display: block;
+    color: white;
+    font-size: 3em;
+    cursor: pointer;
+}
+/* ////HEADER END//// */
+
+/* ////HERO SECTION START//// */
+.hero{
+    height: auto;
+}
+.hero .wrapper .herocontent{
+  margin-top: 300px;
+  margin-left: 30px;
+}
+.hero .wrapper .herocontent p{
+    width: 500px;
+}
+.hero .wrapper .heroimg{
+   margin-top: 300px;
+   margin-left: -40px;
+}
+/* ////HERO SECTION END//// */
