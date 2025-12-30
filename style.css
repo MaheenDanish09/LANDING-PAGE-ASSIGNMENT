@@ -55,6 +55,10 @@ header .wrapper .headnav {
     justify-content: space-between;
 }
 
+header .wrapper .headnav i {
+    display: none;
+}
+
 header .wrapper .headnav a {
     color: var(--text-color);
     text-decoration: none;
@@ -64,50 +68,38 @@ header .wrapper .headnav a:hover {
     color: var(--text-color2);
 }
 
-header .wrapper .headnav i {
-    /* color: var(--text-color); */
-    display: none;
-    /* font-size: 1.5em;
-    cursor: pointer; */
-}
-
 /* ////HEADER END//// */
 
 /* ////HERO SECTION START//// */
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(./hero\ bg.avif) no-repeat center;
     background-size: cover;
-
 }
 
 .hero .herocontent {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
 }
 
 .hero .wrapper .homelogo {
     color: var(--text-color);
     font-size: 3em;
-
 }
 
 .hero .wrapper .landpglogo {
     color: var(--text-color2);
     font-size: 3em;
     margin-bottom: 40px;
-
 }
 
 .hero .wrapper p {
     color: var(--text-color2);
     font-size: 1.2em;
     line-height: 1.5em;
-    width: 600px;
+    max-width: 600px;
 }
 
 .hero .wrapper .btn .herobtn1 {
@@ -154,6 +146,9 @@ header .wrapper .headnav i {
 
 .hero .wrapper .heroimg {
     margin-left: 150px;
+}
+
+.hero .wrapper .heroimg img {
     animation-name: shakeY;
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -216,8 +211,6 @@ header .wrapper .headnav i {
 
 .about1 .abt1content p {
     color: var(--text-color2);
-
-
 }
 
 .about1 .abt1content {
@@ -228,6 +221,10 @@ header .wrapper .headnav i {
     margin-top: 80px;
     width: 45%;
     margin-left: 150px;
+
+}
+
+.about1 .abt1img img {
     animation-name: shakeY;
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -271,7 +268,6 @@ header .wrapper .headnav i {
 .about2 .abt2content p {
     color: var(--text-color2);
     line-height: 1.5em;
-
 }
 
 .about2 .abt2content {
@@ -335,7 +331,6 @@ header .wrapper .headnav i {
     min-height: 300px;
     text-align: center;
     padding: 0.3em 0;
-
 }
 
 .about3 .abt3head h2 {
@@ -346,8 +341,6 @@ header .wrapper .headnav i {
 
 .about3 .abt3head p {
     color: var(--text-color);
-
-
 }
 
 .about3 .abt3content {
@@ -362,18 +355,15 @@ header .wrapper .headnav i {
     flex-direction: column;
     align-items: center;
     font-size: 2em;
-    /* margin: 10px 0; */
     color: var(--text-color);
 }
 
 .about3 .abt3content .contentparts b {
     font-size: 2.3em;
-    /* margin: 10px 0; */
 }
 
 .about3 .abt3content .contentparts i {
     font-size: 2.2em;
-    /* margin: 10px 0; */
 }
 
 /* ////ABOUT3 SECTION END//// */
@@ -392,7 +382,7 @@ header .wrapper .headnav i {
     gap: 20px;
 }
 
-.abot4 .wrapper h2 {
+.about4 .wrapper h2 {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 20px;
@@ -405,7 +395,7 @@ header .wrapper .headnav i {
 .about4 .wrapper p {
     text-align: center;
     color: var(--text-color2);
-    width: 1400px;
+    max-width: 1400px;
     line-height: 1.5em;
 }
 
@@ -465,7 +455,7 @@ header .wrapper .headnav i {
 }
 
 .about5 {
-    height: 600px;
+    min-height: 600px;
     border: 1px solid black;
     background-color: var(--secondary-color);
 }
@@ -557,7 +547,7 @@ header .wrapper .headnav i {
 
 .about6 .wrapper .btn .abtbtn2:hover {
     cursor: pointer;
-    box-shadow: 0 0 10px var(--text-color);
+    box-shadow: 0 0 10px var(--secondary-color);
 }
 
 /* ////ABOUT6 SECTION END//// */
@@ -616,10 +606,11 @@ header .wrapper .headnav i {
 
 /* ////CONTACT SECTION START//// */
 .contactus {
-     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(./hero\ bg.avif) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(./hero\ bg.avif) no-repeat center;
     background-size: cover;
     min-height: 800px;
 }
+
 .contactus .wrapper {
     width: 100%;
     padding: 200px 0 100px 0;
@@ -709,7 +700,8 @@ header .wrapper .headnav i {
     font-size: 14px;
     color: var(--text-color2);
 }
-.contactus .wrapper .contact .data{
+
+.contactus .wrapper .contact .data {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -717,22 +709,15 @@ header .wrapper .headnav i {
     font-size: 14px;
     color: var(--text-color2);
 }
-.contactus .wrapper .contact .data p i{
+
+.contactus .wrapper .contact .data p i {
     color: var(--primary-color);
     margin-right: 10px;
 }
+
 /* ////CONTACT SECTION END//// */
 
 /* ////FOOTER START//// */
-/* .footer .credits{
-    border: 1px solid blueviolet;
-    margin-top: 100px;
-    background-color: var(--secondary-color);
-    text-alignx;
-    width: 100vw;: center;
-    height: 100p
-    margin-bottom: 0;
-} */
 .footer {
     background-color: var(--secondary-color);
     width: 100vw;
@@ -741,45 +726,53 @@ header .wrapper .headnav i {
     font-size: 14px;
 
 }
-.footer .wrapper{
+
+.footer .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 60px 0;
 }
-.footer .wrapper .columns{
+
+.footer .wrapper .columns {
     display: flex;
     flex-direction: column;
     gap: 30px;
     align-items: flex-start;
     justify-content: flex-start;
 }
-.footer .wrapper .columns h3{
+
+.footer .wrapper .columns h3 {
     color: var(--text-color);
     margin-bottom: 20px;
     font-size: 2em;
 
 }
-.footer .wrapper .columns p{
+
+.footer .wrapper .columns p {
     color: var(--text-color);
     line-height: 1.5em;
-font-size: 1.6em;
-margin-left: 10px;
+    font-size: 1.6em;
+    margin-left: 10px;
 }
-.footer .wrapper .columns a{
+
+.footer .wrapper .columns a {
     color: var(--text-color);
     text-decoration: none;
     margin-left: 14px;
     font-size: 0.9em;
 }
-.footer .wrapper .columns a:hover{
+
+.footer .wrapper .columns a:hover {
     margin-left: 30px;
 }
-.footer .wrapper .columns p i{
+
+.footer .wrapper .columns p i {
     margin-right: 10px;
     color: var(--primary-color);
 }
-.credits{
+
+.credits {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -788,13 +781,15 @@ margin-left: 10px;
     margin-top: 50px;
     font-size: 0.9em;
     height: 100px;
-    
+
 }
-.credits p{
+
+.credits p {
     color: var(--text-color);
     font-size: 2em;
 }
-.credits p span{
+
+.credits p span {
     color: var(--text-color2);
 }
 

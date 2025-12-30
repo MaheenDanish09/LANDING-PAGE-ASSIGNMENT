@@ -1,15 +1,189 @@
-.hero .wrapper .herocontent{
+/* ////HEADER START//// */
+header .wrapper .headnav {
+    display: none;
+}
+
+header .wrapper .headnav i {
+    display: block;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+header .wrapper .logo {
+    margin-left: 20px;
+}
+
+/* ////HEADER END//// */
+
+/* ////HERO SECTION START//// */
+.hero .wrapper {
+    flex-direction: column;
+}
+
+.hero .wrapper .homelogo {
+    text-align: center;
+}
+
+.hero .wrapper .landpglogo {
+    text-align: center;
+}
+
+.hero .herocontent {
+    margin-top: 7em;
+}
+
+.hero .wrapper p {
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+.hero .wrapper .btn {
+    justify-content: center;
+}
+
+.hero .wrapper .heroimg img {
+    height: 60%;
+    width: 80%;
+    margin-left: 50px;
+}
+
+/* ////HERO SECTION END//// */
+
+/* ////ABOUT1 SECTION START//// */
+.about1 .wrapper {
+    flex-direction: column;
+}
+
+.about1 .abt1content {
+    width: 80%;
+    margin-left: 6em;
+}
+
+.about1 .abt1img img {
+    width: 80%;
+    margin-left: 100px;
+}
+
+/* ////ABOUT1 SECTION END//// */
+
+/* ////ABOUT2 SECTION START//// */
+.about2 .wrapper {
+    flex-direction: column;
+}
+
+.about2 .wrapper .abt2content {
+    width: 80%;
+    text-align: center;
+    margin-left: 4em;
+    margin-top: 1.2em;
     justify-content: center;
     align-items: center;
-    text-align: left;
 }
-/* .hero .wrapper{
+
+.about2 .abt2content p {
+    margin-top: -2em;
+}
+
+.about2 .wrapper .btn {
+    margin-top: -1em;
+}
+
+.about2 .wrapper .abt2img {
+    margin-top: -2em;
     width: 80%;
-} */
- .hero .wrapper .herocontent p{
-    width: 500px;
-    font-size: 1.2em;
-    line-height: 1.5em;
-    /* padding: 0 20px; */
-margin:auto;
+    margin-left: -1em;
 }
+
+/* ////ABOUT2 SECTION END//// */
+
+/* ////ABOUT3 SECTION START//// */
+.about3 .abt3head {
+    margin-top: -1em;
+}
+
+.about3 .abt3head h2 {
+    font-size: 1.8em;
+}
+
+.about3 .abt3content {
+    flex-wrap: wrap;
+}
+
+.about3 .abt3content .contentparts b,
+.about3 .abt3content .contentparts i {
+    font-size: 1.3em;
+}
+
+.about3 .abt3content .contentparts span {
+    font-size: 0.9em;
+}
+
+/* ////ABOUT3 SECTION END//// */
+
+/* ////ABOUT4 SECTION START//// */
+.about4 .wrapper p {
+    width: 80%;
+}
+
+.about4 .wrapper h2 {
+    font-size: 2em;
+}
+
+/* ////ABOUT4 SECTION END//// */
+
+/* ////ABOUT5 SECTION START//// */
+.about5 .wrapper {
+    flex-direction: column;
+}
+
+.about5 .abt5content {
+    width: 80%;
+    margin-left: 6em;
+    margin-top: 2em;
+}
+
+.about5 .abt5img img {
+    width: 80%;
+    margin-left: 100px;
+}
+
+/* ////ABOUT5 SECTION END//// */
+
+/* ////ABOUT6 SECTION START//// */
+.about6 .abt6head p {
+    width: 80%;
+    text-align: center;
+    margin-left: 2.5em;
+}
+
+/* ////ABOUT6 SECTION END//// */
+
+/* ////GALLERY SECTION START//// */
+/* ////GALLERY SECTION END//// */
+
+/* ////CONTACT SECTION START//// */
+.contactus .wrapper .contact {
+    flex-direction: column;
+}
+
+.contactus .wrapper .contact .form {
+    width: 100%;
+}
+
+.contactus .wrapper .contact .contactinfo {
+    width: 100%;
+}
+
+/* ////CONTACT SECTION END//// */
+
+/* ////FOOTER START//// */
+.footer .wrapper {
+    gap: 4em;
+}
+
+.credits p {
+    text-align: center;
+}
+
+/* ////FOOTER END//// */

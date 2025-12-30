@@ -1,33 +1,75 @@
 /* ////HEADER START//// */
-header{
-    padding: 20px;
+header .wrapper .headnav {
+  margin-right: 2em;
 }
-header .wrapper, header .wrapper .headnav{
-  flex-direction: column;
-  gap: 20px;
-  align-items: flex-start;
-}
-header .wrapper .headnav i{
-    display: block;
-    color: white;
-    font-size: 3em;
-    cursor: pointer;
-}
+
 /* ////HEADER END//// */
 
 /* ////HERO SECTION START//// */
-.hero{
-    height: auto;
+.hero .herocontent {
+  margin-left: 2em;
+  font-size: 0.8em;
 }
-.hero .wrapper .herocontent{
-  margin-top: 300px;
-  margin-left: 30px;
+
+.hero .wrapper .heroimg {
+  margin-left: 2em;
 }
-.hero .wrapper .herocontent p{
-    width: 500px;
-}
-.hero .wrapper .heroimg{
-   margin-top: 300px;
-   margin-left: -40px;
-}
+
 /* ////HERO SECTION END//// */
+
+/* ////ABOUT1 SECTION START//// */
+/* ////ABOUT1 SECTION END//// */
+
+/* ////ABOUT2 SECTION START//// */
+.about2 .wrapper .abt2img {
+  margin-left: 2em;
+}
+
+/* ////ABOUT2 SECTION END//// */
+
+/* ////ABOUT3 SECTION START//// */
+.about3 .abt3content .contentparts b {
+  font-size: 1.7em;
+}
+
+.about3 .abt3content .contentparts i {
+  font-size: 1.6em;
+}
+
+/* ////ABOUT3 SECTION END//// */
+
+/* ////ABOUT4 SECTION START//// */
+/* ////ABOUT4 SECTION END//// */
+
+/* ////ABOUT5 SECTION START//// */
+.about5 .abt5content {
+  margin-top: -8px;
+  margin-bottom: 20px;
+}
+
+/* ////ABOUT5 SECTION END//// */
+
+/* ////ABOUT6 SECTION START//// */
+/* ////ABOUT6 SECTION END//// */
+
+/* ////GALLERY SECTION START//// */
+/* ////GALLERY SECTION END//// */
+
+/* ////CONTACT SECTION START//// */
+/* ////CONTACT SECTION END//// */
+
+/* ////FOOTER START//// */
+.footer .wrapper {
+  flex-wrap: wrap;
+}
+
+.footer .wrapper .columns {
+  gap: 10px;
+  margin-right: 3em;
+}
+
+.credits p {
+  font-size: 1.5em;
+}
+
+/* ////FOOTER END//// */
